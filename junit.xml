@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="4" time="3.911">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2020-10-10T13:33:57" time="3.097" tests="4">
+    <testcase classname=" Add item to cart" name=" Add item to cart" time="0.083">
+      <failure>Error: expect(received).toBeFalsy()
+
+Received: &lt;input class=&quot;cart-quantity&quot; data-testid=&quot;cart-quantity&quot; disabled=&quot;&quot; type=&quot;number&quot; /&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Update quantity in cart" name=" Update quantity in cart" time="0.028">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;1&quot;
+Received: &quot;&quot;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:68:32)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Remove item from cart" name=" Remove item from cart" time="0.041">
+      <failure>Error: expect(received).toBeFalsy()
+
+Received: &lt;button class=&quot;x-small icon-only outlined&quot; data-testid=&quot;btn-quantity-add&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;add&lt;/i&gt;&lt;/button&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:128:20)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Performs Series of Actions" name=" Performs Series of Actions" time="0.032">
+      <failure>Error: expect(received).toBeFalsy()
+
+Received: &lt;button class=&quot;x-small outlined&quot; data-testid=&quot;btn-item-add&quot;&gt;Add To Cart&lt;/button&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:157:29)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
